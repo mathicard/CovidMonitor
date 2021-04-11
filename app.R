@@ -161,13 +161,13 @@ server <- function(input, output) {
   access_token <- "110651492-aB9iL1exrmkb3Q2gmM2DEqCzz6eo0TQiqqjRRXec" 
   access_token_secret <- "8XZIQ6eVvOwAwhvGSSIL4SEitrttjAkf6SYAJHFXMFxz9"
   
+  origop <- options("httr_oauth_cache")
+  options(httr_oauth_cache=TRUE)
+  
   # Setting access using OAUTH protocol
   setup_twitter_oauth(api_key, api_secret, access_token, access_token_secret)
-  1
   
-  cat("\014")
-  origop <- options("httr_oauth_cache")
-  options(httr_oauth_cache = TRUE)
+  options(httr_oauth_cache=origop) #set an automatic response to API request
   
   # Search for tweets and create a data.frame
   
