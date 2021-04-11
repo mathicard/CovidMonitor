@@ -20,7 +20,7 @@ The number of tweets and key terms can be used to retrieve tweets with a range b
 * *Sentiment Score*: histograms of positive, negative and overall score for graphically analyzing the intensity of emotion in the tweets that contains the defined key terms. To compute the score, we use the polarity of Italian lemmas available in [Sentix](http://valeriobasile.github.io/twita/sentix.html) (Sentiment Italian Lexicon), a lexicon built by TWITA project investigation. Polarity ranges from -1 (totally negative) to 1 (totally positive) and measures the lexical sentiment. Thus, the Sentiment Score is calculated using simple arithmetic to understand the overall sentiment of Italian tweets related to COVID-19 pandemic. The complete list of positive and negative lemmas, built on Sentix polarity basis, can be found in `sentix.txt`. 
 *	*Share of sentiment type*: a pie chart with the share (%) of positive and negative words (based on Sentiment Score), related to the retrieved tweets.
 *	*Word cloud with key terms*: a word cloud plot that contains the most frequent words related to the retrieved tweets. It is a visual representation that gives greater prominence to words that appear more frequently, after removing stop words, whitespaces, punctuations, numbers, etc. from tweets. The slider controls the lowest word frequency parameter of the plot.
--	*Top frequent words*: a bar plot with the most frequent words occurring in the retrieved tweets. The slider controls how many words should be plotted.
+* *Top frequent words*: a bar plot with the most frequent words occurring in the retrieved tweets. The slider controls how many words should be plotted.
 
 
 ## Sources
@@ -38,7 +38,7 @@ The number of tweets and key terms can be used to retrieve tweets with a range b
 * [Using R to extract interesting insights trending topics on Twitter](https://medium.com/@emmanuelsibanda/explaining-south-africas-sona-of-2019-through-a-twitter-keyword-analysis-f5306cad2d79)
 
 
-# App development
+## App development
 
 This app was developed solely by Mathias Cardarello Fierro, based on the following previous works:
 * [Corona-Virus Shiny APP](https://github.com/simmieyungie/Corona-Virus)
