@@ -343,7 +343,7 @@ server <- function(input, output) {
   output$trendtable_world <- renderTable(toptrends("Worldwide")[1:10], colnames = FALSE)
   
  
-  # Funtion to obtain top users mentioning key terms
+  # Function to obtain top users mentioning key terms
   
   toptweeters<-function(tweetlist)
   {
