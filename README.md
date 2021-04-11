@@ -12,7 +12,7 @@ The number of tweets and key terms can be used to retrieve tweets with a range b
 
 ## Components
 1.	On the **Main metrics** tab, there is an overview of the most important metrics related to Twitter activity. This includes:
-*	*Top 10 Trending Topics*: Twitter's hot topics in the last hour, for Italy and the world. There is no need to click on the *“Get data”* button to get this information.
+*	*Top 10 Trending Topics*: Twitter's hot topics in the last hour, for Italy and the world. There is no need to click on the *“Get data”* button to get this information. Italy Trendic Topics can not be retrieved in some occasions due to API problems.
 *	*Top users mentioning key terms*: a dynamic bar plot and table that shows the top tweeters according to the frequency with which they used the defined key terms.
 *	*Frequency of tweets mentioning key terms*: a time series plot with the frequency of tweets mentioning defined key terms.
 
