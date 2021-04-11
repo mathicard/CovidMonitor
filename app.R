@@ -114,7 +114,7 @@ body <- dashboardBody(
             
             fluidRow(
               box(
-              title = tagList(shiny::icon("cloud"), "Wordcloud with key terms"),
+              title = tagList(shiny::icon("cloud"), "Word cloud with key terms"),
               status = "primary", solidHeader = TRUE,
               height = "435px",
               sliderInput("min_freq", "Lowest word frequency",
