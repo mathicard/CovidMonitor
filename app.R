@@ -163,6 +163,7 @@ server <- function(input, output) {
   
   # Setting access using OAUTH protocol
   setup_twitter_oauth(api_key, api_secret, access_token, access_token_secret)
+  1
   
   cat("\014")
   origop <- options("httr_oauth_cache")
