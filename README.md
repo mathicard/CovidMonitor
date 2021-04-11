@@ -12,15 +12,16 @@ The number of tweets and key terms can be used to retrieve tweets with a range b
 
 ## Components
 1.	On the **Main metrics** tab, there is an overview of the most important metrics related to Twitter activity. This includes:
-*	*Top 10 Trending Topics*: Twitter's hot topics in the last hour, for Italy and the world. There is no need to click on the *“Get data”* button to get this information. Italy Trendic Topics can not be retrieved in some occasions due to API problems.
+*	*Top 10 Trending Topics*: Twitter's hot topics in the last hour, for Italy and the world. There is no need to click on the *“Get data”* button to get this information. Italy Trendic Topics can not be retrieved in some occasions due to API problems❗
 *	*Top users mentioning key terms*: a dynamic bar plot and table that shows the top tweeters according to the frequency with which they used the defined key terms.
-*	*Frequency of tweets mentioning key terms*: a time series plot with the frequency of tweets mentioning defined key terms.
+*	*Frequency of tweets mentioning key terms*: a time series plot with the frequency of tweets mentioning defined key terms./
+
 
 2.	On the **Sentiment Analysis** tab, there is the result of the text mining analysis of the tweets in Italy, related to COVID-19 pandemic. This includes:
-* *Sentiment Score*: histograms of positive, negative and overall score for graphically analyzing the intensity of emotion in the tweets that contains the defined key terms. To compute the score, we use the polarity of Italian lemmas available in [Sentix](http://valeriobasile.github.io/twita/sentix.html) (Sentiment Italian Lexicon), a lexicon built by TWITA project investigation. Polarity ranges from -1 (totally negative) to 1 (totally positive) and measures the lexical sentiment. Thus, the Sentiment Score is calculated using simple arithmetic to understand the overall sentiment of Italian tweets related to COVID-19 pandemic. The complete list of positive and negative lemmas, built on Sentix polarity basis, can be found in `sentix.txt`. 
+* *Sentiment Score*: histograms of positive, negative and overall score for graphically analyzing the intensity of emotion in the tweets that contains the defined key terms. To compute the score, we use the polarity of Italian lemmas available in [Sentix](http://valeriobasile.github.io/twita/sentix.html) (Sentiment Italian Lexicon), a lexicon built by [TWITA](http://valeriobasile.github.io/twita/about.html) project investigation. Polarity ranges from -1 (totally negative) to 1 (totally positive) and measures the lexical sentiment. Thus, the Sentiment Score is calculated using simple arithmetic to understand the overall sentiment of Italian tweets related to COVID-19 pandemic. The complete list of positive and negative lemmas, built on Sentix polarity basis, can be found in `sentix.txt`. 
 *	*Share of sentiment type*: a pie chart with the share (%) of positive and negative words (based on Sentiment Score), related to the retrieved tweets.
 *	*Word cloud with key terms*: a word cloud plot that contains the most frequent words related to the retrieved tweets. It is a visual representation that gives greater prominence to words that appear more frequently, after removing stop words, whitespaces, punctuations, numbers, etc. from tweets. The slider controls the lowest word frequency parameter of the plot.
-* *Top frequent words*: a bar plot with the most frequent words occurring in the retrieved tweets. The slider controls how many words should be plotted.
+* *Top frequent words*: a bar plot with the most frequent words occurring in the retrieved tweets. The slider controls how many words should be plotted./
 
 
 ## Sources
