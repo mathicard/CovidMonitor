@@ -1,5 +1,5 @@
 # CovidMonitor
-This **CovidMonitor** dashboard was built using Shiny R framework. It was designed to obtain tweets from twitter's API and perform a real time Sentiment Analysis on the COVID-19 related posts of users in Italy.
+This **CovidMonitor** dashboard was built using Shiny R framework. It was designed to obtain tweets from Twitter's API and perform a real time Sentiment Analysis on the COVID-19 related posts of users in Italy.
 
 The number of tweets and key terms can be used to retrieve tweets with a range between 100 and 2000 tweets at a time due to API limitations. There are also a set of preferred key terms that can be used to guide the search. In the **sidebar** it could be selected the following parameters:
 
