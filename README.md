@@ -32,7 +32,7 @@ Once shiny package is installed, load the library and call the Shiny app:
     shiny::runGitHub("mathicard/CovidMonitor") #for iOS OS (with parallel computing)
     shiny::runGitHub("mathicard/CovidMonitor_win") #for Windows OS
 
-> :warning: **If you are a Windows user**: it is necessary to have the lastest version of R (4.0.5) in order to run properly `plotly` package
+> :warning: **If you are a Windows user**: it is necessary to have the lastest version of R (>=4.0.5) in order to run properly `plotly` package
 
 
 
